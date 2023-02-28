@@ -1,5 +1,5 @@
 import { bootstrap, css, git, html, js, node, react  } from '../helper/images';
-import '../../../assets/css/footer.css';
+import '../../../public/assets/css/footer.css';
 
 export const Footer = () => {
     return (
