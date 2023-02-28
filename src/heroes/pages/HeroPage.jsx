@@ -9,7 +9,7 @@ export const HeroPage = () => {
 
   const hero = useMemo(() => getHeroById(id), [id]);
 
-  const heroImageUrl = `../../../public/assets/heroes/${id}.jpg`;
+  const heroImageUrl = `./assets/heroes/${id}.jpg`;
 
   if(!hero) {
     <Navigate to={"/marvel"} />
